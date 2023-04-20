@@ -1,0 +1,30 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/back.xml" value="0.3555" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/baseline_email_24.xml" value="0.155" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/baseline_phone_24.xml" value="0.155" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/borde.xml" value="0.158" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/cuadro.xml" value="0.274" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/degradado.xml" value="0.3555" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/email.xml" value="0.155" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.321" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/person.xml" value="0.155" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/phone.xml" value="0.155" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/drawable/underline.xml" value="0.3555" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/loanT/app/src/main/res/layout/result.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/User/Desktop/apprespal/loanT/app/src/main/res/drawable-v24/est.xml" value="0.111" />
+        <entry key="..\:/Users/User/Desktop/apprespal/loanT/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/User/Desktop/apprespal/loanT/app/src/main/res/mipmap-anydpi-v26/est.xml" value="0.203" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="liberica-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

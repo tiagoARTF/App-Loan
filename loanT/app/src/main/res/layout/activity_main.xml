@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/des"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_marginTop="1dp"
+        android:src="@drawable/loa"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="160dp"/>
+
+    <LinearLayout
+        android:id="@+id/degradado"
+        android:layout_width="383dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="525dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/degradado"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/name"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:drawableStart="@drawable/person"
+                android:id="@+id/etname"
+                android:inputType="textPersonName"
+                android:hint="Complete Name"
+                android:textAlignment="center"
+                android:layout_width="235dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginTop="10dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/email"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="235dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/email"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="-20dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+
+                android:text="@string/Vprestamo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/etvalueprest"
+                android:layout_width="235dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:drawableStart="@drawable/prestamo"
+                android:hint="Enter the value you want"
+                android:inputType="number"
+                android:layout_marginLeft="-20dp"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/fecha"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/etdate"
+                android:layout_width="235dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/fecha"
+                android:hint="Enter (Day/Month/Year)"
+                android:textAlignment="center"
+                android:layout_marginLeft="-20dp"
+                android:inputType="date" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="@string/cuotas"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"/>
+            <Spinner
+                android:id="@+id/spnumcuotas"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="-20dp"
+                android:contentDescription="Botón para enviar el formulario" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:text="@string/Tprestamo"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/tipoprest"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="-20dp"
+                android:contentDescription="Botón para enviar el formulario" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:text="Calculate"
+                android:id="@+id/btmcalculate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:backgroundTint="#1474BD"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:text="Clean"
+                android:id="@+id/btmclean"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textAllCaps="false"
+                android:backgroundTint="#7C27D1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Debt value"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-15dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/tvvaluedeuda"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-135dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="-56dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Quota value"
+                android:layout_marginLeft="245dp"
+                android:layout_marginTop="-16dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/tvvaluecuota"
+                android:textAlignment="center"
+                android:layout_marginLeft="-135dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="-300dp"
+        android:src="@drawable/pers"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:layout_width="450dp"
+        android:layout_marginLeft="170dp"
+        android:layout_height="760dp"/>
+</LinearLayout>

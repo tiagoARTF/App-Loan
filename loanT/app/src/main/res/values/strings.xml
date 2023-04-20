@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoanExpress</string>
+    <string name="title">LoanExpress</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="Vprestamo">Loan Value</string>
+    <string name="cuotas">Number of Installments</string>
+    <string name="Tprestamo">Loan Type</string>
+    <string name="fecha">Date</string>
+
+</resources>
